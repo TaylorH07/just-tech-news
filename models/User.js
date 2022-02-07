@@ -4,6 +4,7 @@ const sequelize = require('../config/connection');
 // create our User model
 class User extends Model {}
 
+
 // define table columns and configuration
 User.init(
     {
@@ -53,4 +54,4 @@ User.init(
      
 );
 
-module_exports = User;
+module.exports = User;
